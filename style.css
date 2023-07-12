@@ -1,0 +1,25 @@
+div {
+  padding: 10px;
+}
+.text{
+  border-radius: 5px;;
+}
+.bg{
+  height: 200px;
+  width: 200px;
+  border: 1px solid #0e0c0c;
+  transition: all 0.4s ease;
+  background-color: aliceblue;
+  box-shadow: 10px 10px 21px 6px rgba(0,0,0,0.48);
+-webkit-box-shadow: 10px 10px 21px 6px rgba(0,0,0,0.48);
+-moz-box-shadow: 10px 10px 21px 6px rgba(0,0,0,0.48);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background-color:rgb(139, 0, 253)
+}
